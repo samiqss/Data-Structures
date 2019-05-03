@@ -1,0 +1,34 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my $range;
+my $numcalls;
+my $coinflip;
+
+print "How many elements: ";
+$range = <STDIN>;
+
+print "How many operations: ";
+$numcalls = <STDIN>;
+
+
+print $range;
+
+my $count = 0;
+while ($count < $numcalls)
+	{
+	$count= $count + 1;
+	$coinflip = rand();
+	my $a = int(rand($range));
+	if ($coinflip < 0.3) 
+    		{
+		my $b = int(rand($range));
+		print "u ", $a, " ", $b, "\n";
+		}
+	else 
+		{
+    		print "f ", $a, "\n";
+		}
+	}
+print "d\n";

@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my $range;
+my $numcalls;
+my $stepsize;
+my $coinflip;
+
+# print "What is top int in range: ";
+$range = <STDIN>;
+
+# print "How many inserts: ";
+$numcalls = <STDIN>;
+
+# print "step size: ";
+$stepsize= <STDIN>;
+
+
+print $stepsize;
+
+my $count = 0;
+while ($count < $numcalls)
+	{
+	$count= $count + 1;
+	my $a = int(rand($range));
+   print "i ", $a, " ", $a, "\n";
+	}
+print "d\n";

@@ -1,0 +1,8 @@
+GIT repository for csci260/Lab3
+Part 1 of a tiling program
+
+- set up a "board" that is nxn, where n is a power of 2
+- determine from the user the missing array element
+- in Part 1, just put 1's in all the non-missing positions on the board,
+    and 0 in the missing position
+- print out the board to the screen

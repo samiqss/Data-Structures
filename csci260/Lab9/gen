@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my $n;
+my $m;
+my $w;
+
+# print "How many vertices: ";
+$n = <STDIN>;
+
+# print "How many edges: ";
+$m = <STDIN>;
+
+# print "max edge weight: ";
+$w = <STDIN>;
+
+
+
+print $n;
+
+my $count = 0;
+while ($count < $m)
+	{
+	$count= $count + 1;
+	my $u = int(rand($n));
+	my $v = int(rand($n));
+   my $weight = int(rand($w));
+	print $u, " ", $v, " ", $weight,"\n";
+	}
+print $n," ",$n," ",$w;

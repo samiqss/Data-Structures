@@ -1,0 +1,5 @@
+GIT repository for csci260/Lab5
+Gara Pruesse 2017
+This repository includes all files necessary for the ExpressList lab.
+There is a bug in the ExpressList code that makes it unable to "find" keys.
+Students need to fix this.  

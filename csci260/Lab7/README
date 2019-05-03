@@ -1,0 +1,6 @@
+GIT repository for csci260/Lab7
+Lab 7: Red-Black trees
+1. fix find
+2. implement leftRotate, and testLeftRotate
+3. implement red-black tree properties of what was initially a Binary 
+   Search Tree.
